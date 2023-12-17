@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/tahmid56/greenlight/internal/data.go"
+	"github.com/tahmid56/greenlight/internal/data"
 )
 
 func (app *application) createMovieHanlder(w http.ResponseWriter, r *http.Request){
